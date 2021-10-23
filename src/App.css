@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;500&display=swap");
+* {
+  list-style: none;
+}
+body {
+  font-family: "Roboto Mono", monospace;
+}
+
+/*home.js*/
+
+.Home {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #222;
+  overflow-y: hidden;
+  height: 100vh;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+.Home {
+  display: flex;
+  flex-direction: column;
+}
+.Home h1 {
+  margin-top: 50px;
+  display: inline;
+  text-align: center;
+  margin-bottom: 2rem;
+  color: #e1ebfd;
+  font-size: 50px;
+  text-shadow: 0 0 5px #223691, 3px -1px 5px #1c216c;
+}
+
+.home-name {
+  font-family: "Roboto Mono", monospace;
+  padding-top: 50px;
+  text-align: center;
+  font-size: 40px;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 50px;
+}
+
+/*TodoList*/
+
+.title-List {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+.title-List h2 {
+  margin-bottom: 2rem;
+  color: #e1ebfd;
+  font-size: 40px;
+  text-shadow: 0 0 5px #223691, 3px -1px 5px #1c216c;
+  margin-top: 30px;
+}
+
+/*TodoForm*/
+
+.title-Form {
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin: 10px;
+}
+.title-Form h2 {
+  margin-bottom: 2rem;
+  color: #e1ebfd;
+  font-size: 40px;
+  text-shadow: 0 0 5px #223691, 3px -1px 5px #1c216c;
+  margin-top: 30px;
+}
+
+.site-layout-header .site-layout-content {
+  background: #fff;
+}
+
+/*TodoItem*/
+
+.todo-item {
+  margin: 10px 20px;
+  display: flex;
+  width: 320px;
+  height: 110px;
+  border-style: solid;
+  border-radius: 10px;
+  border-color: rgb(71, 32, 179);
+  justify-content: center;
+  background-color: #80d0c7b7;
+}
+
+.item-star {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.item-status {
+  margin: 0 8px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+
+.item-body {
+  flex: 1;
+}
+
+.todo-name {
+  color: #2577fd;
+  font-size: 18px;
+  margin: 5px 3px;
+}
+
+.todo-time {
+  color: #0a0c11;
+  font-size: 16px;
+  margin: 5px 3px;
+  color: red;
+}
+.todo-time span {
+  color: rgb(19, 14, 14);
+}
+
+.todo-status {
+  color: #868c98;
+  font-size: 16px;
+  margin: 5px 3px;
+}
+
+.item-end {
+  margin: 0 8px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.item-icon {
+  margin: 0px;
+  outline: 0;
+  border: 0;
+}
+.item-icon button {
+  border: none;
+  background: transparent;
+  font-size: 22px;
+  cursor: pointer;
+}
+
+Button {
+  margin: 0px;
+  outline: none;
+}
+
+.title-timeline {
+  color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.vertical-timeline::before {
+  background: #ccc !important;
+}
+
+.vertical-timeline-element-content {
+  -webkit-box-shadow: 0 3px 0 #4bb54385 !important;
+  box-shadow: 0 3px 0 #4bb54385 !important;
+}
+
+.vertical-timeline-element-title {
+  color: #2577fd;
+  padding: 5px 0px;
+  font-size: 25px !important;
+}
+
+.vertical-timeline-element-subtitle {
+  color: rgb(19, 14, 14);
+  font-size: 16px;
+  padding: 10px 0px;
+}
+
+.vertical-timeline-element-desc {
+  color: rgb(19, 14, 14);
+  font-size: 16px;
+}
+
+.menu {
+  font-weight: bold;
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    0deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(255, 188, 45, 1) 100%
+  );
+  font-size: 20px;
+}
+
+.site-layout-header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+}
+.ant-layout-header {
+  background: transparent;
+}
+.menu {
+  font-weight: bold;
+  font-size: 20px;
+  background: transparent;
+}
+.ant-row .ant-form-item {
+  justify-content: center;
+}
+.ant-picker {
+  width: 477px;
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.ant-input {
+  padding: 8px 10px;
+  border-radius: 10px;
+}
+.App {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  background-size: cover;
+}
+.vertical-timeline-element-title span {
+  color: #5f25fd;
+}
+.vertical-timeline-element-subtitle span {
+  color: rgb(19, 14, 14);
+}
+.vertical-timeline-element-subtitle {
+  color: red;
+}
+.success span {
+  color: rgb(0, 184, 0);
+}
+.fail span {
+  color: red;
+}
+.site-layout-content {
+  background-image: linear-gradient(160deg, #0093e9 0%, #80d0c7 100%);
+  background-attachment: fixed;
+  background-size: cover;
+  color: #222;
+  /* overflow-y: hidden; */
+  height: auto;
+  width: auto;
+  padding: 0;
+  margin: 0;
+}
+.button-primary {
+  width: auto;
+  height: auto;
+  padding: 20px 20px;
+  border-radius: 20px;
+  background-color: #25fd30;
+  color: black;
+}
+.title-timeline {
+}
