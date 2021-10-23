@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/TodoList_DuHA/static/css/main.90889e2f.chunk.css",
+    "main.js": "/TodoList_DuHA/static/js/main.b0e519be.chunk.js",
+    "main.js.map": "/TodoList_DuHA/static/js/main.b0e519be.chunk.js.map",
+    "runtime-main.js": "/TodoList_DuHA/static/js/runtime-main.1fbeb180.js",
+    "runtime-main.js.map": "/TodoList_DuHA/static/js/runtime-main.1fbeb180.js.map",
+    "static/css/2.13ecb752.chunk.css": "/TodoList_DuHA/static/css/2.13ecb752.chunk.css",
+    "static/js/2.ab88e910.chunk.js": "/TodoList_DuHA/static/js/2.ab88e910.chunk.js",
+    "static/js/2.ab88e910.chunk.js.map": "/TodoList_DuHA/static/js/2.ab88e910.chunk.js.map",
+    "static/js/3.d37b68d7.chunk.js": "/TodoList_DuHA/static/js/3.d37b68d7.chunk.js",
+    "static/js/3.d37b68d7.chunk.js.map": "/TodoList_DuHA/static/js/3.d37b68d7.chunk.js.map",
+    "index.html": "/TodoList_DuHA/index.html",
+    "static/css/2.13ecb752.chunk.css.map": "/TodoList_DuHA/static/css/2.13ecb752.chunk.css.map",
+    "static/css/main.90889e2f.chunk.css.map": "/TodoList_DuHA/static/css/main.90889e2f.chunk.css.map",
+    "static/js/2.ab88e910.chunk.js.LICENSE.txt": "/TodoList_DuHA/static/js/2.ab88e910.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.1fbeb180.js",
+    "static/css/2.13ecb752.chunk.css",
+    "static/js/2.ab88e910.chunk.js",
+    "static/css/main.90889e2f.chunk.css",
+    "static/js/main.b0e519be.chunk.js"
+  ]
+}
